@@ -1,0 +1,90 @@
+body{
+  background: darkseagreen;
+}
+.text-center {
+    text-align: center;
+}
+
+.template {
+    display: none;
+}
+
+.template .score {
+    color: #868E96;
+}
+
+.game-title {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.game-container {
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    color: #fff;
+    border: 10px solid white;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(8, 1fr)/repeat(8, 1fr);
+}
+
+.game-container .game-grid {
+    border: 2px solid gray;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        width: 100%;
+    }
+}
+
+.arrow-right {
+    background-image: url("../assets/images/arrow-right.png");
+    background-position: 5px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.arrow-left {
+    background-image: url("../assets/images/arrow-left.png");
+    background-position: 5px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.arrow-up {
+    background-image: url("../assets/images/arrow-up.png");
+    background-position: 5px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.arrow-down {
+    background-image: url("../assets/images/arrow-down.png");
+    background-position: 5px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+.question {
+  background-image: url("../assets/images/question.png");
+  background-position: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.diamond {
+  background-image: url("../assets/images/diamond.png");
+  background-position: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid green !important;
+}
+.empty{
+  background-image:none;
+  background-color: white;
+  border: 2px solid red !important;
+}
